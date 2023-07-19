@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Cairo", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+.header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: #331D2C;
+}
+header img{
+    margin-top: 0.5em;
+    margin-left: 10em;
+    height: 3.5em;
+}
+.div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.nav a {
+    text-decoration: none;
+}
+
+.nav {
+    opacity: 0.5;
+    margin-right: 40px;
+    padding:10px;
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+    font-size:18px ;
+    transition: 0.5s ease;
+}
+.nav li {
+    list-style: none;
+    float: left;
+}
+.nav:hover {
+    color: #ffffff;
+    opacity: 1;
+}
+.div2 {
+    background-color: #3F2E3E;
+    padding-top: 8em;
+    padding-left: 13em;
+    font-size: 23px;
+}
+.para {
+    font-weight: 300;
+    font-size: 22px;
+    padding-top: 10px;
+    color: #d1d1d1;
+}
+.div3 {
+    display: flex;
+    justify-content: flex-start;
+}
+.div3 img {
+    width: 600px;
+    position: relative;
+    bottom:80px;
+    left: 400px;
+    animation-name: up-and-down;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes up-and-down {
+    0% {
+        transform: translateY(-25px);
+    }
+    50% {
+        transform:translateY(50px)
+    }
+    100% {
+        transform: translateY(-25px);
+    }
+}
+div a {
+    color: black;
+}
+.para2 {
+    margin-top: 5em;
+    margin-left:27.2em ;
+}
+.Articles {
+    background-color: #A78295;
+}
+.Article {
+   display:flex;
+   justify-content: center;
+}
+.Article h1 {
+    padding-top:1.5em ;
+    color: #ffffff;
+    font-size: 3em;
+}
+.card1 h1 {
+    display: flex;
+    justify-content: center;
+}
+.card1 p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.card1 a {
+    text-decoration: none;
+    color: chartreuse;
+}
+.card1  {    padding-bottom: 1em;
+    color: white;
+    margin-top: 4em;
+    margin-left:25em ;
+    background-color: #331D2C;
+    width: 20%;
+    padding-left: 15px;
+    border: 1px solid #331D2C;
+    border-radius: 5%;
+}
+.card2 h1 {
+    display: flex;
+    justify-content: center;
+}
+.card2 p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.card2 a {
+    text-decoration: none;
+    color: chartreuse;
+}
+.card2  {
+    padding-bottom: 1em;
+    color: white;
+    margin-top: 10em;
+    margin-left:47em ;
+    background-color: #331D2C;
+    width: 20%;
+    padding-left: 15px;
+    border: 1px solid #331D2C;
+    border-radius: 5%;
+}
+.card3 h1 {
+    display: flex;
+    justify-content: center;
+}
+.card3 p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.card3 a {
+    text-decoration: none;
+    color: chartreuse;
+}
+.card3  {
+    padding-left: 15px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: #331D2C;
+    width: 20%;
+    position: relative;
+    bottom:61em;
+    left: 70em;
+    border: 1px solid #331D2C;
+    border-radius: 5%;
+}
+.Gallery {
+    background-color:#331D2C ;
+}
+.Photos {
+        display:flex;
+        justify-content: center;
+}
+.Photos h1 {
+    color: #ffffff;
+    font-size: 3em;
+}
+.Gallery img {
+    width: 300px;
+    margin-top: 1em;
+    margin-left: 2.5em;
+    border-radius: 20%;
+}
+.img-card .p1 {
+    position: relative;
+    left: 2em;
+    font-size: 18px;
+    color: white;
+}
+.img-card .p2 {
+    position: relative;
+    bottom: 0.4em;
+    left: 4.3em;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.img-card {
+    border-radius: 10%;
+    margin-left: 20%;
+    margin-top: 5%;
+    border: 2px solid rgb(255, 255, 255);
+    width: 20%;
+}
+/*.load { 
+    display: flex;
+    margin: 150px auto;
+}
+.load div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0 5px;
+    animation-name: up-down;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+}
+.load .two {
+    animation-delay: 0.3s;
+}
+.load .three {
+    animation-delay: 0.6s;
+}
+@keyframes up-down {
+     to {
+        opacity: 0.3;
+    }
+}
+/*/
+@media  (max-width:767px) {
+    .nav {
+        margin-right:20px ;
+    }
+    .Logo {
+        position: relative;
+        right: 3em;
+    }
+    .para {
+        position: relative;
+        right: 5em;
+    }
+    .h2 {
+        position: relative;
+        right: 3em;
+    }
+    .Br {
+        display: none;
+    }
+    .div3 img {
+        display: none;
+    }
+}
