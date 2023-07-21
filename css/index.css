@@ -238,6 +238,7 @@ div a {
     .Logo {
         position: relative;
         right: em;
+        display:none;
     }
     .para {
         position: relative;
