@@ -237,7 +237,7 @@ div a {
     }
     .Logo {
         position: relative;
-        right: 3em;
+        right: em;
     }
     .para {
         position: relative;
