@@ -231,7 +231,7 @@ div a {
     }
 }
 /*/
-@media  (max-width:767px) {
+@media screen and (max-width:767px) {
     .nav {
         margin-right:20px ;
     }
